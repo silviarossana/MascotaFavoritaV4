@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_macerca_de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gt.silviarossana.mascotasfavoritas.menu.MAcercaDe"
+    android:orientation="vertical">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar_mascota">
+    </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_app"
+        android:id="@+id/textViewApp"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_top_principal"
+        android:textSize="@dimen/size_about"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_modulo"
+        android:id="@+id/textViewModulo"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_top"
+        android:textSize="@dimen/size_about"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_version"
+        android:id="@+id/textViewVersion"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_top"
+        android:textSize="@dimen/size_about"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acerca_autor"
+        android:id="@+id/textViewAutor"
+        android:gravity="center"
+        android:paddingTop="@dimen/size_top"
+        android:textSize="@dimen/size_about"
+        android:textStyle="bold"/>
+
+</LinearLayout>

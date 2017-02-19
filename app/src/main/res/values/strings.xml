@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombreMascota">Pochito</string>
+    <string name="likeMascota">5</string>
+
+    <string name="menuo_datos">Contacto</string>
+    <string name="menuo_acercade">Acerca de</string>
+    <string name="menuo_configurarc">Configurar Cuenta</string>
+
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mensaje">Comentario</string>
+    <string name="txtboton_enviarc">Enviar Comentario</string>
+
+    <string name="acerca_app">Mascota Favorita</string>
+    <string name="acerca_modulo">Módulo 3 - Java Android</string>
+    <string name="acerca_version">Version 2.0</string>
+    <string name="acerca_autor">Silvia Rossana</string>
+
+    <string name="hint_configurar_cuenta">Escribe tu usuario</string>
+    <string name="hint_cuentas_configuradas">"Cuentas configuradas para Escribe tu usuario:\n     1. perritopochito\n     2. gatitowafle"</string>
+    <string name="txtboton_guardar_cuenta">Guardar Cuenta</string>
+</resources>

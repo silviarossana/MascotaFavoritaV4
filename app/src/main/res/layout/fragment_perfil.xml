@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">-->
+
+        <!--<android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabMiFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estrella"
+            android:layout_gravity="end|right"
+            android:onClick="irMascotasFavoritas"
+            app:borderWidth="@dimen/border_flowactionbutton"
+            app:elevation="@dimen/elevation_flowactionbutton"/>-->
+
+        <!--<include android:id="@+id/miActionBar"
+            layout="@layout/actionbar_mascota">
+        </include>
+
+    </FrameLayout>-->
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="@dimen/imgcircular_height"
+            android:layout_height="@dimen/imgcircular_width"
+            android:src="@drawable/perritouno"
+            app:civ_border_color="@color/imgcirucular_border"
+            app:civ_border_width="@dimen/imgcircular_border_width"
+            app:civ_shadow="true"
+            android:layout_gravity="center"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="@color/imgcirucular_shadow"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMascotasPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

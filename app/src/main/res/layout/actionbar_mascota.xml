@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevation_appbar"
+    android:theme="@style/Theme.AppCompat.Light"
+    app:popupTheme="@style/Theme.AppCompat.Light"
+    android:id="@+id/tbBarraPrincipal">
+
+
+        <ImageView
+            android:id="@+id/imgvHuellita"
+            android:layout_width="@dimen/huellita_width_appbar"
+            android:layout_height="match_parent"
+            android:src="@drawable/huella"/>
+
+        <TextView
+            android:id="@+id/tvNombreApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/padding_left_appbar"
+            android:textStyle="bold"
+            android:textSize="@dimen/titulo_appbar"
+            android:textColor="@color/colorWhite"/>
+
+</android.support.v7.widget.Toolbar>
